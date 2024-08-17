@@ -1,0 +1,27 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "Water Metering User",
+    "permissions" : {
+      "ALARM" : [ "READ", "WRITE" ],
+      "CUSTOMER" : [ "WRITE_ATTRIBUTES" ],
+      "DEVICE" : [ "WRITE", "WRITE_ATTRIBUTES" ]
+    },
+    "type" : "GENERIC",
+    "additionalInfo" : null,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "7cc23e20-74a3-11ee-994f-696f2d05cc74"
+    },
+    "ownerId" : null
+  },
+  "relations" : [ ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}

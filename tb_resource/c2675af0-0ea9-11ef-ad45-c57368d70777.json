@@ -18,7 +18,10 @@
       }
     },
     "etag" : "9129d3d91f4b5083468ada0f4144addbbaa614d1036635019a0078b59df4a005",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "c2675af0-0ea9-11ef-ad45-c57368d70777"
+    },
     "fileName" : "golf_cart_tracking_dashboard_widget_golf_cart_locations_marker_image_2.svg",
     "id" : {
       "entityType" : "TB_RESOURCE",

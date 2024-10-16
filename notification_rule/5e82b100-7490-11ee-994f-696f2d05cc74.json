@@ -5,7 +5,10 @@
       "description" : "Send notification to tenant admins when any alarm is updated or cleared"
     },
     "enabled" : true,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "NOTIFICATION_RULE",
+      "id" : "5e82b100-7490-11ee-994f-696f2d05cc74"
+    },
     "id" : {
       "entityType" : "NOTIFICATION_RULE",
       "id" : "5e82b100-7490-11ee-994f-696f2d05cc74"

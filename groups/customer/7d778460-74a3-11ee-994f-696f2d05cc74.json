@@ -28,7 +28,10 @@
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "7d778460-74a3-11ee-994f-696f2d05cc74"
+    },
     "groupAll" : false,
     "id" : {
       "entityType" : "ENTITY_GROUP",
@@ -37,7 +40,7 @@
     "name" : "Water Metering",
     "ownerId" : {
       "entityType" : "TENANT",
-      "id" : "5e6f7720-7490-11ee-994f-696f2d05cc74"
+      "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
     },
     "type" : "CUSTOMER"
   },

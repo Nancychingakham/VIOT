@@ -26,7 +26,10 @@
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "f6ed3360-77cf-11ee-994f-696f2d05cc74"
+    },
     "groupAll" : false,
     "id" : {
       "entityType" : "ENTITY_GROUP",
@@ -45,6 +48,28 @@
   },
   "groupEntities" : true,
   "permissions" : [ {
+    "entityGroupId" : null,
+    "entityGroupType" : null,
+    "roleId" : {
+      "entityType" : "ROLE",
+      "id" : "f6ef2f30-77cf-11ee-994f-696f2d05cc74"
+    },
+    "tenantId" : {
+      "entityType" : "TENANT",
+      "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
+    },
+    "userGroupId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "f6ed3360-77cf-11ee-994f-696f2d05cc74"
+    },
+    "createdTime" : 1728883705774,
+    "id" : {
+      "entityType" : "GROUP_PERMISSION",
+      "id" : "22e93ce0-89ed-11ef-aa57-71b15701cbc0"
+    },
+    "name" : "GENERIC_[f6ed3360-77cf-11ee-994f-696f2d05cc74]_[f6ef2f30-77cf-11ee-994f-696f2d05cc74]",
+    "public" : false
+  }, {
     "entityGroupId" : {
       "entityType" : "ENTITY_GROUP",
       "id" : "5e7654f0-7490-11ee-994f-696f2d05cc74"
@@ -56,41 +81,19 @@
     },
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "5e6f7720-7490-11ee-994f-696f2d05cc74"
+      "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
     },
     "userGroupId" : {
       "entityType" : "ENTITY_GROUP",
       "id" : "f6ed3360-77cf-11ee-994f-696f2d05cc74"
     },
-    "createdTime" : 1698744593403,
+    "createdTime" : 1728883711650,
     "id" : {
       "entityType" : "GROUP_PERMISSION",
-      "id" : "0c0b3cb0-77d0-11ee-994f-696f2d05cc74"
+      "id" : "2669d820-89ed-11ef-aa57-71b15701cbc0"
     },
     "name" : "GROUP_[f6ed3360-77cf-11ee-994f-696f2d05cc74]_[f6fbb250-77cf-11ee-994f-696f2d05cc74]_[5e7654f0-7490-11ee-994f-696f2d05cc74]_[DEVICE]",
     "public" : true
-  }, {
-    "entityGroupId" : null,
-    "entityGroupType" : null,
-    "roleId" : {
-      "entityType" : "ROLE",
-      "id" : "f6ef2f30-77cf-11ee-994f-696f2d05cc74"
-    },
-    "tenantId" : {
-      "entityType" : "TENANT",
-      "id" : "5e6f7720-7490-11ee-994f-696f2d05cc74"
-    },
-    "userGroupId" : {
-      "entityType" : "ENTITY_GROUP",
-      "id" : "f6ed3360-77cf-11ee-994f-696f2d05cc74"
-    },
-    "createdTime" : 1698744558056,
-    "id" : {
-      "entityType" : "GROUP_PERMISSION",
-      "id" : "f6f9b680-77cf-11ee-994f-696f2d05cc74"
-    },
-    "name" : "GENERIC_[f6ed3360-77cf-11ee-994f-696f2d05cc74]_[f6ef2f30-77cf-11ee-994f-696f2d05cc74]",
-    "public" : false
   }, {
     "entityGroupId" : {
       "entityType" : "ENTITY_GROUP",
@@ -103,16 +106,16 @@
     },
     "tenantId" : {
       "entityType" : "TENANT",
-      "id" : "5e6f7720-7490-11ee-994f-696f2d05cc74"
+      "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
     },
     "userGroupId" : {
       "entityType" : "ENTITY_GROUP",
       "id" : "f6ed3360-77cf-11ee-994f-696f2d05cc74"
     },
-    "createdTime" : 1698744558080,
+    "createdTime" : 1728883711651,
     "id" : {
       "entityType" : "GROUP_PERMISSION",
-      "id" : "f6fd6000-77cf-11ee-994f-696f2d05cc74"
+      "id" : "2669ff30-89ed-11ef-aa57-71b15701cbc0"
     },
     "name" : "GROUP_[f6ed3360-77cf-11ee-994f-696f2d05cc74]_[f6fbb250-77cf-11ee-994f-696f2d05cc74]_[5e76f130-7490-11ee-994f-696f2d05cc74]_[DASHBOARD]",
     "public" : true

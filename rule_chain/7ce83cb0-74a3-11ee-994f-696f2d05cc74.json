@@ -6,7 +6,10 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "7ce83cb0-74a3-11ee-994f-696f2d05cc74"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "7d02a280-74a3-11ee-994f-696f2d05cc74"
@@ -304,9 +307,10 @@
           "weeklyConsumptionSmsEnabled" : "weeklyConsumptionSmsEnabled"
         },
         "dataToFetch" : "ATTRIBUTES",
-        "fetchTo" : "METADATA"
+        "fetchTo" : "METADATA",
+        "preserveOriginatorIfCustomer" : true
       },
-      "configurationVersion" : 1,
+      "configurationVersion" : 2,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

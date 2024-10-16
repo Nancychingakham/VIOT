@@ -20,7 +20,10 @@
       "actions" : { }
     },
     "edgeGroupAll" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ENTITY_GROUP",
+      "id" : "5e762de0-7490-11ee-994f-696f2d05cc74"
+    },
     "groupAll" : true,
     "id" : {
       "entityType" : "ENTITY_GROUP",
@@ -29,7 +32,7 @@
     "name" : "All",
     "ownerId" : {
       "entityType" : "TENANT",
-      "id" : "5e6f7720-7490-11ee-994f-696f2d05cc74"
+      "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
     },
     "type" : "ASSET"
   },

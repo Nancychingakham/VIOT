@@ -18,7 +18,10 @@
       }
     },
     "etag" : "b76d79b3a5ee0392bffd607fc16a2feea1686041452757a966fc90a45204dbeb",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "TB_RESOURCE",
+      "id" : "c14aa050-0ea9-11ef-ad45-c57368d70777"
+    },
     "fileName" : "white_labeling_website_icon.png",
     "id" : {
       "entityType" : "TB_RESOURCE",

@@ -5,7 +5,10 @@
       "entityType" : "CUSTOMER",
       "id" : "13814000-1dd2-11b2-8080-808080808080"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "ROLE",
+      "id" : "7d8985c0-74a3-11ee-994f-696f2d05cc74"
+    },
     "name" : "Customer Administrator",
     "permissions" : {
       "ALL" : [ "ALL" ]

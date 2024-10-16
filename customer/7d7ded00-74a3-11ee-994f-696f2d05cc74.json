@@ -8,7 +8,10 @@
     "country" : "Germany",
     "customerId" : null,
     "email" : "byron.lim@thingsboard.io",
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "7d7ded00-74a3-11ee-994f-696f2d05cc74"
+    },
     "id" : {
       "entityType" : "CUSTOMER",
       "id" : "7d7ded00-74a3-11ee-994f-696f2d05cc74"

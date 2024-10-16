@@ -4,7 +4,10 @@
     "additionalInfo" : null,
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "5e99bb70-7490-11ee-994f-696f2d05cc74"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "5e9f39b0-7490-11ee-994f-696f2d05cc74"
@@ -295,9 +298,10 @@
         "layoutY" : 690
       },
       "configuration" : {
-        "ruleChainId" : "5e8fa950-7490-11ee-994f-696f2d05cc74"
+        "ruleChainId" : "5e8fa950-7490-11ee-994f-696f2d05cc74",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,

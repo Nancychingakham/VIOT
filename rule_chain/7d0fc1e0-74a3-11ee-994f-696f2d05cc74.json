@@ -6,7 +6,10 @@
     },
     "configuration" : null,
     "debugMode" : false,
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "RULE_CHAIN",
+      "id" : "7d0fc1e0-74a3-11ee-994f-696f2d05cc74"
+    },
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
       "id" : "7ec0f450-74a3-11ee-994f-696f2d05cc74"
@@ -235,9 +238,10 @@
         "periodValueKey" : "periodInMs",
         "round" : 2,
         "tellFailureIfInputValueKeyIsAbsent" : false,
-        "tellFailureIfDeltaIsNegative" : true
+        "tellFailureIfDeltaIsNegative" : true,
+        "excludeZeroDeltas" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -278,7 +282,7 @@
           "type" : "single",
           "entityId" : {
             "entityType" : "TENANT",
-            "id" : "e47343f0-5a68-11eb-a280-b979e84eaa51"
+            "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
           }
         }
       },
@@ -323,7 +327,7 @@
           "type" : "group",
           "entityGroupId" : {
             "entityType" : "ENTITY_GROUP",
-            "id" : "e479ac90-5a68-11eb-a280-b979e84eaa51"
+            "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
           }
         }
       },
@@ -368,7 +372,7 @@
           "type" : "single",
           "entityId" : {
             "entityType" : "TENANT",
-            "id" : "e47343f0-5a68-11eb-a280-b979e84eaa51"
+            "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
           }
         }
       },
@@ -413,7 +417,7 @@
           "type" : "group",
           "entityGroupId" : {
             "entityType" : "ENTITY_GROUP",
-            "id" : "e479ac90-5a68-11eb-a280-b979e84eaa51"
+            "id" : "a4ce10b0-89ec-11ef-aa57-71b15701cbc0"
           }
         }
       },
@@ -446,9 +450,10 @@
             "entityTypes" : [ ]
           } ],
           "fetchLastLevelOnly" : false
-        }
+        },
+        "preserveOriginatorIfCustomer" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -477,9 +482,10 @@
             "entityTypes" : [ ]
           } ],
           "fetchLastLevelOnly" : false
-        }
+        },
+        "preserveOriginatorIfCustomer" : true
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -583,9 +589,10 @@
         "layoutY" : 290
       },
       "configuration" : {
-        "ruleChainId" : "7ce83cb0-74a3-11ee-994f-696f2d05cc74"
+        "ruleChainId" : "7ce83cb0-74a3-11ee-994f-696f2d05cc74",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
@@ -605,9 +612,10 @@
         "layoutY" : 231
       },
       "configuration" : {
-        "ruleChainId" : "7cc9df40-74a3-11ee-994f-696f2d05cc74"
+        "ruleChainId" : "7cc9df40-74a3-11ee-994f-696f2d05cc74",
+        "forwardMsgToDefaultRuleChain" : false
       },
-      "configurationVersion" : 0,
+      "configurationVersion" : 1,
       "createdTime" : 0,
       "debugMode" : false,
       "externalId" : null,
